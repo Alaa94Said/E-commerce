@@ -1,0 +1,11 @@
+{
+  "validUser": {
+    "name": "Lilly Tester",
+    "email": "lilly.tester+qa1@example.com",
+    "password": "Str0ngP@ss!"
+  },
+  "guestUser": {
+    "name": "Guest Buyer",
+    "email": "guest.buyer@example.com"
+  }
+}
