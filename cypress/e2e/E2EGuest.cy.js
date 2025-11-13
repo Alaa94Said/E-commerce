@@ -8,7 +8,7 @@ describe('E2E - Complete Purchase Flow', () => {
   it('Register, adds item to cart, adds review and completes checkout', () => {
     const uniqueEmail = `user_${Date.now()}@testmail.com`;
    Login.OpenLoginPage();
-   Login.UserLoginFirst('Alaa','uniqueEmail@Afffsf.AA'); 
+   Login.UserLoginFirst('Alaa',uniqueEmail); 
    Register.UserSignUp('Female','Lilly','said','AA@AA.AA','123456987','add','cairo','sherouk','00256','01021154895');
   Register.SuccessMSG().should('be.visible')
   .and('contain.text', 'Account Created!');
